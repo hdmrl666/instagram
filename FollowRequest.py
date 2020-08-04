@@ -17,8 +17,8 @@ from selenium.webdriver.chrome.options import Options
 from selenium.common.exceptions import NoSuchElementException
 from selenium.common.exceptions import WebDriverException
 
-username = 'your username' # without @ 
-password = 'your password'
+username = '2021deonayliyicam' # without @ 
+password = 'hesen2002'
 
 # Function that approve each follow request
 def Approve():
@@ -56,7 +56,7 @@ options.add_argument('--disable-gpu')
 options.add_argument('start-maximized')
 options.add_argument('disable-infobars')
 options.add_argument("--disable-extensions")
-driver = webdriver.Chrome(executable_path='Your chrome path', chrome_options=options) # like '/Users/xxxx/Desktop/chromedriver'
+driver = webdriver.Chrome(executable_path='C:\Users\demir\Desktop\Setup of programs', chrome_options=options) # like '/Users/xxxx/Desktop/chromedriver'
 
 getDriver = ("https://www.instagram.com/accounts/activity?followRequests=")
 try:
